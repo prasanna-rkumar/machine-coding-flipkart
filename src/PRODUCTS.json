@@ -1,0 +1,35 @@
+[
+  {
+    "brand": "Seven Rocks",
+    "title": "Color block Men's T-Shirt",
+    "image": "https://rukminim1.flixcart.com/image/309/371/khmbafk0-0/t-shirt/w/j/s/xs-t322-blwh-seven-rocks-original-imafxhagtyj2xvpn.jpeg?q=50",
+    "isAssured": false,
+    "mrp": 500,
+    "offer": 50,
+    "sellingPrice": 250,
+    "size": "XL",
+    "idealFor": "Men" 
+  },
+  {
+    "brand": "OPINA",
+    "title": "Cotton Polyester Blend Graphic Print Shirt Fabric",
+    "image": "https://rukminim1.flixcart.com/image/309/371/kpa39u80/fabric/k/1/h/no-unstitched-cotton-polyester-blend-shirt-febric-unstich-opina-original-imag3jpwgt3zhrkx.jpeg?q=50",
+    "isAssured": true,
+    "mrp": 200,
+    "offer": 10,
+    "sellingPrice": 180,
+    "size": "L",
+    "idealFor": "Men" 
+  },
+  {
+    "brand": "Seven Rocks",
+    "title": "Striped Men Round Neck Yellow T-Shirt",
+    "image": "https://rukminim1.flixcart.com/image/309/371/kjiwfbk0-0/t-shirt/e/k/s/m-t305-as10yldnwh-seven-rocks-original-imafz2qfvx7tznnn.jpeg?q=50",
+    "isAssured": true,
+    "mrp": 100,
+    "offer": 70,
+    "sellingPrice": 30,
+    "size": "L",
+    "idealFor": "Men" 
+  }
+]
