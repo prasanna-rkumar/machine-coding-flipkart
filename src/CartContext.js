@@ -41,11 +41,23 @@ export const CartProvider = ({ children }) => {
     setCart([...copy])
   }
 
+  const saveForLater = (product) => {
+    const copy = [...cart];
+    const cartItemIndex = copy.findIndex(item => item.product.id === product.id)
+
+    setLater(prev => [...prev, copy[cartItemIndex]]);
+    copy.splice(cartItemIndex, 1)
+
+    setCart([...copy])
+  };
+
   return (
     <CartContext.Provider value={{
       cart,
       addToCart,
-      removeFromCart
+      removeFromCart,
+      saveForLater,
+      later
     }}>
       {children}
     </CartContext.Provider>
