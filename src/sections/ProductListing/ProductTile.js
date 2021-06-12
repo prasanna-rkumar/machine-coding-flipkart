@@ -1,7 +1,11 @@
-const ProductTile = ({product}) => {
+import { useContext } from "react";
+import { CartContext } from "../../CartContext";
+
+const ProductTile = ({ product }) => {
+  const { addToCart } = useContext(CartContext);
   return (
-    <div>
-      <img alt={product.title} src={product.image} />
+    <div onClick={() => addToCart(product)}>
+      <img className=" h-20 sm:h-40 md:h-60 lg:h-72" alt={product.title} src={product.image} />
       <h6 className="text-sm font-medium text-gray-500">{product.brand}</h6>
       <div className="flex flex-row gap-x-2">
         <h3 className="text-sm leading-none truncate">{product.title}</h3>
